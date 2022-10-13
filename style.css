@@ -59,8 +59,8 @@ body {
     .myPic {
         background-image: url(me-circle.png);
         background-size: cover;
-        width: 325px;
-        height: 325px;
+        width: 225px;
+        height: 225px;
         border-radius: 100px;
         display: block;
         margin: auto;
@@ -68,7 +68,7 @@ body {
 
     .bio-grid {
      display: grid;
-     width: 700px;
+     width: 500px;
      height: auto;
      grid-gap: 40px;
      grid-template-rows: auto;
