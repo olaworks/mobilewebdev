@@ -68,7 +68,7 @@ body {
 
     .bio-grid {
      display: grid;
-     width: 500px;
+     width: 700px;
      height: auto;
      grid-gap: 40px;
      grid-template-rows: auto;
