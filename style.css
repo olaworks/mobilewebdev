@@ -1,0 +1,115 @@
+body {
+    color: #1cc2ed;
+    color: #56a5b0;
+    color: #83a0a3;
+    background-color: #073a47;
+    background-color: #002b36;
+    font-family: Helvetica;
+  
+  }
+    a {
+    text-decoration: none;
+    color: white;
+    }
+
+    a:hover {
+    color: #83a0a3;
+    transition-duration: .2s;
+    }
+  
+    h1 {
+      padding-bottom: 15px;
+      margin-top: 0px;
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+   h3 {
+    font-weight: lighter;
+    font-size: 14px;
+  }
+    li {
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      padding-top: 5px;
+    }
+  
+    li:hover {
+      color: white;
+      transition-duration: .2s;
+      }
+
+    .list-heading {
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    .list-heading:hover {
+        color: #1cc2ed;
+        transition-duration: .2s;
+    }
+
+    .myPic {
+        background-image: url(me-circle.png);
+        background-size: cover;
+        width: 325px;
+        height: 325px;
+        border-radius: 100px;
+        display: block;
+        margin: auto;
+      }
+
+    .bio-grid {
+     display: grid;
+     width: 700px;
+     height: auto;
+     grid-gap: 40px;
+     grid-template-rows: auto;
+     grid-template-columns: 70% 30%;
+    }
+
+       section {
+        height: 400px;
+    }
+  
+    .main-body-div {
+    padding: 400px 400px;
+    width: 400px;
+  }
+ 
+
+ 
+  
+  /* SCROLLBAR */
+    ::-webkit-scrollbar {
+    width: 5px;
+    }
+  
+    ::-webkit-scrollbar-bottom {
+      width: 5px;
+    }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #166b7a;
+    background: #000f12;
+    background: #000f12;
+    }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #19e3d2;
+    background: #24b7d1;
+    background: #56a5b0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  }
